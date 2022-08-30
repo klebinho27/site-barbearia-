@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+.navegacao{
+    background-color: black;
+    height: 15vh;
+    color: white;
+    font-size: 50px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao ol{
+    list-style-type:  none;
+    display: flex;
+
+}
+
+.navegacao ol li{
+    padding-left: 50px;
+}
+
+.navegacao ol li:hover{
+ color: #ffd800;
+ cursor: pointer;
+}
+
+
+.banner{
+    background-image: url(barbearia.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    background-color: black;
+    height: 15vh;
+    color: white;
+    font-size: 30px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.unidades{
+    background-color: yellow;
+    height: 120vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.unidadestexto{
+    color: black;
+    font-size: 40px; 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.unidadestexto ol{
+    list-style-type:  none;
+}
+.unidadestexto ol li{
+    font-size: 20px;
+}
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+button:hover{
+color: white;
+cursor: pointer;
+background-color: black;
+
+}
+.unidades img{
+    width: 105vh;
+    height: 110vh;
+}
+.baixo{
+    text-align: center;
+    height: 50vh;
+}
+.baixo p{ 
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+}
+.baixo h1{
+    font-size: 40px;
+}
+.formu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.formu input{
+    border: none;
+    outline: 0;
+    border-bottom: black 1px solid;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    
+}
